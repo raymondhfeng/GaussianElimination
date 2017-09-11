@@ -1,2 +1,2 @@
 # GaussianElimination
-A simple program in Java that performs Gaussian Elimination on a 2d array. This algorithm is based off the pseudocode in the EE16A notes: http://inst.eecs.berkeley.edu/~ee16a/fa17/lectures/Note1.pdf
+A simple program in Java that performs Gaussian Elimination on a 2d array. This algorithm is based off the pseudocode in the EE16A notes: http://inst.eecs.berkeley.edu/~ee16a/fa17/lectures/Note1.pdf. A very basic program mostly for educational purposes. A problem right now is that this program fails when you divide by a non-factor during any step, because the elements are represented as integers. A fix could be to create a rational class to represent fractions, but for now, I think I will just leave this as is. 
